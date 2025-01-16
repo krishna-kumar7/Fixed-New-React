@@ -6,7 +6,9 @@ import { createRoot } from 'react-dom/client'
 //import PropExmp from './lec3112/propscomps3'
 //import anonymus from './lec3112/anonymus'
 //import DefaultProps1 from './lec3112/defoultProp'
-import StateExmp1 from './lec0201/stateexmp1'
+//import StateExmp1 from './lec0201/stateexmp1'
+//import ApiSimulation from './lec1601/useeffectclass'
+import ApiSimulation from './lec1601/useeffectclass'
 
 
 createRoot(document.getElementById('root')).render(
@@ -24,7 +26,9 @@ createRoot(document.getElementById('root')).render(
    <br/>
    <DefaultProps1 var1={true} var2={"blue"} var3={"abc"}/>
    <br/> */}
-   <StateExmp1 />
+   {/* <StateExmp1 /> */}
+   {/* <ApiSimulation/> */}
+   <ApiSimulation />
 
 
     
